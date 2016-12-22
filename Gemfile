@@ -34,9 +34,6 @@ gem 'bootstrap-sass', '3.3.7'
 #use FontAwesome SASS gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
-# API for testing
-gem 'analogbridge'
-
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
