@@ -1,0 +1,7 @@
+Memberships
+
+* Users should see link for Basic plan on HOME page
+* Users should see link for Pro plan on HOME page
+* Basic plan link should point to the regular Devise sign_up form
+* Pro plan link should point to a custom sign_up form
+ -- this will connect Credit card information as well
