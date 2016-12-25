@@ -5,3 +5,8 @@ Memberships
 * Basic plan link should point to the regular Devise sign_up form
 * Pro plan link should point to a custom sign_up form
  -- this will connect Credit card information as well
+ 
+ 
+ ActiveRecord
+ Params
+ Substitution
