@@ -6,7 +6,12 @@ Memberships
 * Pro plan link should point to a custom sign_up form
  -- this will connect Credit card information as well
  
- 
- ActiveRecord
- Params
- Substitution
+STRIPE INTEGRATION
+* Users should have a stripe customer ID in the users table
+* Javascript should prevent 'pro' form from submitting when a user fills it out
+and should send card info to Stripe - Stripe will return with a CARD token
+* Javascript will take the card token + user fields (email, password, plan_id) and submit to 
+Rails app for validation. Rails app will note whether Plan1 or Plan 2
+* Once validated, Rails will send user info (email + plan_id) + card token to
+Stripe server - and Stripe will create a subscription membership and send back
+a CUSTOMER token
