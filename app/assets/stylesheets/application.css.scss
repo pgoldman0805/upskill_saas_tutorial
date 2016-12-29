@@ -64,6 +64,7 @@ h1, h2, h3 {
     font-family:'Open Sans', sans-serif;
     font-weight:800;
 }
+
 // Home page styles
 .home-callout {
   color: white;
@@ -72,8 +73,15 @@ h1, h2, h3 {
   padding-bottom: 100px;
 }
 
-.alert-notice {
-  display: none;
+.flash-container {
+  position:absolute;
+  width:100%;
+}
+.alert-alert, .alert-notice {
+  text-align: center;
+  background: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.5);
+  margin-top: -14px;
 }
 
 .home-signup-links {
