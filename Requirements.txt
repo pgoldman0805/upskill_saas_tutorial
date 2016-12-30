@@ -15,3 +15,12 @@ Rails app for validation. Rails app will note whether Plan1 or Plan 2
 * Once validated, Rails will send user info (email + plan_id) + card token to
 Stripe server - and Stripe will create a subscription membership and send back
 a CUSTOMER token. Rails should save customer token and user info to our DB.
+
+PROFILES
+* Each user should have one profile
+* User should see link to new profile form when they sign up
+* USER should be able to create and view their profile
+* User profile should have a profile picture
+* User should be able to view ALL user profiles
+*** Basic members should see limited profiles
+*** Pro members should see contact information as well
