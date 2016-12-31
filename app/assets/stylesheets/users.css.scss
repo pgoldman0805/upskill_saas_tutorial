@@ -3,9 +3,19 @@
 //@import 'font-awesome-sprockets';
 //@import 'font-awesome';
 
-.avatar-show-img {
+.avatar-show-image {
   height: 128px;
   width: 128px;
+}
+.job_title_icon {
+  display: inline-block;
+  width:30px;
+  height: 30px;
+  border: 2px solid #2e6da4;
+  border-radius: 4px;
+  background-color: #337ab7;
+  color:white;
+  text-align:center;
 }
 
 .well.profile-block {
@@ -18,11 +28,10 @@
 .well.profile-description{
   background-color:#55AB8A;
   border-color:black;
-
 }
 
 .well.profile-contact-info {
   background-color: #7F8DCE;
   border-color: black;
-  
 }
+
