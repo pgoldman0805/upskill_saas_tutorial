@@ -1,0 +1,28 @@
+//@import 'bootstrap-sprockets';
+//@import 'bootstrap';
+//@import 'font-awesome-sprockets';
+//@import 'font-awesome';
+
+.avatar-show-img {
+  height: 128px;
+  width: 128px;
+}
+
+.well.profile-block {
+  color: white;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.well.profile-description{
+  background-color:#55AB8A;
+  border-color:black;
+
+}
+
+.well.profile-contact-info {
+  background-color: #7F8DCE;
+  border-color: black;
+  
+}
